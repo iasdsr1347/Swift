@@ -62,3 +62,32 @@ add(first: 1, second: 2)  // 호출 시: first, second 사용
 func move(from: String, to: String)  // 레이블이 있어야 명확함
 move(from: "서울", to: "부산")
 */
+
+
+// if let: 값이 있을 때의 로직이 중첩됨
+func example1(_ text: String?) {
+    if let text = text {
+        // 여기서만 text 사용 가능
+        print(text.uppercased())
+        print(text.lowercased())
+        // 더 많은 코드...
+        // 들여쓰기가 계속 유지됨
+    } else {
+        print("값이 없음")
+    }
+    // 여기서는 text 사용 불가
+}
+
+// guard let: 조건 실패 시 빠르게 종료, 이후 코드가 깔끔함
+func example2(_ text: String?) {
+    guard let text = text else {
+        print("값이 없음")
+        return
+    }
+    
+    // 여기부터 끝까지 text 사용 가능
+    print(text.uppercased())
+    print(text.lowercased())
+    // 더 많은 코드...
+    // 들여쓰기 없이 쭉 이어짐
+}
