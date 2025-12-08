@@ -1,0 +1,92 @@
+############################
+# macOS 공통
+############################
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 아이콘 파일
+Icon?
+
+# 썸네일
+._*
+
+# 휴지통
+.Spotlight-V100
+.Trashes
+
+############################
+# Xcode / iOS 프로젝트
+############################
+
+## 빌드 결과물
+build/
+DerivedData/
+
+## Xcode 개인 설정 (유저별로 달라지는 것들)
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## 기타 Xcode 메타
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## 아카이브 / 심볼
+*.xcarchive
+*.dSYM
+*.dSYM.zip
+
+############################
+# Swift / SwiftPM
+############################
+
+# Swift Package Manager 빌드 결과
+.build/
+.swiftpm/
+
+# Swift Playgrounds
+timeline.xctimeline
+playground.xcworkspace/
+
+############################
+# 의존성 매니저
+############################
+
+# CocoaPods
+Pods/
+# 일부 사람들은 .xcworkspace를 커밋하지만,
+# 공부 레포에서는 그냥 무시해도 됨
+*.xcworkspace
+
+# Carthage
+Carthage/Build/
+
+# Accio
+Dependencies/
+.accio/
+
+############################
+# fastlane (자동화 도구)
+############################
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+############################
+# 기타 앱/배포 산출물
+############################
+
+*.ipa
+*.apk
+*.xcuserstate
