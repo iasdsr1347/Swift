@@ -17,7 +17,7 @@ Swift 기초
   Swift 변수, 함수, if, 배열, 딕셔너리
 - `01-swift-basics2`  
   옵셔널과 guard
-- `01-swift-basics3`
+- `01-swift-basics3`  
   struct / class / enum
 - `01-swift-basics4`  
   Codable (설정/메타데이터 저장에 필요)
