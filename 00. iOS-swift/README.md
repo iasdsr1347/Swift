@@ -11,6 +11,15 @@ Swift 문법 공부한 내용을 정리하는 레포입니다.
 Swift 기초 
 ( 변수, 함수, 옵셔널, 배열/딕셔너리, 옵셔널과 guard, struct / class / enum, Codable )
 
+SwiftUI 기초
+( View, @State, 바인딩 )
+
+MVVM 기초
+( ObservableObject / @Published / @StateObject )
+
+기타
+( 저장, 타이머, 비동기 기초, 프로토콜, 의존성 )
+
 ## 폴더 구조
 
 - `01-swift-basics1`  
