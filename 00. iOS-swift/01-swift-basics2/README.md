@@ -1,4 +1,4 @@
-# 02 - Swift Basics2
+# 01 - Swift Basics2
 
 ## 목표
 
