@@ -31,13 +31,13 @@ Swift 기초
 - `01-mvvm-basics1`  
   MVVM 기초 문법 (ObservableObject / @Published / @StateObject)
   
-- `01-save-basics1` 
+- `01-save-basics1`  
   저장 관련 문법 (UserDefaults / FileManager + Codable)
   
-- `01-timer-basics1` 
+- `01-timer-basics1`  
   타이머 & 비동기 기초 (자동 넘김 준비)
   
-- `01-protocol-basics1` 
+- `01-protocol-basics1`  
   프로토콜 & 의존성 주입 기초
 
 ## 커밋 규칙
